@@ -32,7 +32,7 @@ if (!is_array($tags)) {
 	$tags = array($tags);
 }
 
-$list_class = "elgg-tags";
+$list_class = "list-inline tags";
 if (isset($vars['list_class'])) {
 	$list_class = "$list_class {$vars['list_class']}";
 	unset($vars['list_class']);
@@ -64,7 +64,7 @@ if (empty($list_items)) {
 	return;
 }
 
-$icon = elgg_view_icon('tag', $icon_class);
+$icon = "<span class=\"glyphicon glyphicon-tag\"></span>";
 
 $list = <<<___HTML
 	<div class="clearfix">

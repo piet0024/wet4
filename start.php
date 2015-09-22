@@ -1,6 +1,6 @@
 <?php
 /**
- * wet4 theme plugin
+ * WET 4 Theme plugin
  *
  * @package wet4Theme
  */
