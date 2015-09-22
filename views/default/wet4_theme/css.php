@@ -1995,7 +1995,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 .alert {
   padding: 15px;
-  margin-bottom: 23px;
+  /*margin-bottom: 23px;*/
   border: 1px solid transparent;
   border-radius: 4px; }
   .alert h4 {
@@ -2043,7 +2043,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   .alert-warning .alert-link {
     color: #66502c; }
 
-.alert-danger {
+.alert-error {
   background-color: #f2dede;
   border-color: #ebccd1;
   color: #a94442; }
@@ -8511,6 +8511,11 @@ This is the theme-coa.css file from WET4
 
 #groupSearchDropdown button {
     margin-top: 10px;
+}
+
+
+.custom-message{
+    margin-bottom:0;   
 }
 
 /* Large view and over */

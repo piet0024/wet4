@@ -82,11 +82,12 @@ $body .= <<<__BODY
 	</header>
 	
     
-    <div class="elgg-page-messages">
+    
+	<main role="main" property="mainContentOfPage" class="container">
+		<div class="elgg-page-messages">
 		$messages
 	</div>
-	<main role="main" property="mainContentOfPage" class="container">
-		<div class="elgg-inner">
+        <div class="elgg-inner">
             $userMenu
         
 			$content

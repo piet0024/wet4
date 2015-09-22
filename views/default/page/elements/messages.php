@@ -9,7 +9,7 @@
  * @uses $vars['object'] The array of message registers
  */
 
-echo '<ul class="elgg-system-messages test">';
+echo '<ul class="elgg-system-messages custom-message">';
 
 // hidden li so we validate
 echo '<li class="hidden wb-invisible"></li>';
